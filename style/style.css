@@ -5,6 +5,9 @@
   font-size: 16px;
   font-family: sans-serif;
 }
+body {
+  padding: 4px 4% 0 4%;
+}
 .header {
   /* border: 3px solid red; */
   display: flex;
@@ -12,7 +15,7 @@
   justify-content: space-between;
   position: sticky;
   top: 0px;
-  width: 95%;
+  /* width: 95%; */
   margin: auto;
   background-color: white;
 }
@@ -55,10 +58,14 @@
     margin: 8px;
   }
 }
-.footer {
+.index-footer {
   position: absolute;
   bottom: 0px;
-  width: 100%;
+  width: 94%;
+  text-align: center;
+  background-color: white;
+}
+.footer {
   text-align: center;
   background-color: white;
 }
