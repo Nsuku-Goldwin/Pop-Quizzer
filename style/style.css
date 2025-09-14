@@ -12,6 +12,9 @@
   justify-content: space-between;
   position: sticky;
   top: 0px;
+  width: 95%;
+  margin: auto;
+  background-color: white;
 }
 .header-logo {
   width: 50px;
@@ -57,6 +60,7 @@
   bottom: 0px;
   width: 100%;
   text-align: center;
+  background-color: white;
 }
 .social-media {
   margin: 20px 0px;
@@ -77,4 +81,13 @@
 .copyright p {
   margin: 20px 0px;
   font-size: 0.6rem;
+}
+.social-icons {
+  font-size: 1.5rem;
+  color: purple;
+  margin: 0 8px;
+}
+.social-icons:hover {
+  color: purple;
+  font-size: 2rem;
 }
