@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.topic {
+  margin-top: 8px;
+  color: purple;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align: center;
+}
+.quick-info {
+  font-size: 0.7rem;
+  font-weight: 100;
+  text-align: center;
+}
+p {
+  margin: 0.75rem 0px;
+}
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.start-btn {
+  color: white;
+  background-color: purple;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.start-btn:hover {
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+.Question-card {
+  border: 3px solid purple;
+  border-radius: 12px;
+  padding: 4%;
+  width: 55%;
+  min-width: 450px;
+  margin: 12px auto;
+}
+.question {
+  margin: 8px 0px;
+}
+input {
+  margin: 4px 2px;
+}
