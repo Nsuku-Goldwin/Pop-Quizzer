@@ -7,6 +7,8 @@
 }
 body {
   padding: 4px 5% 0 5%;
+  min-height: 100vh;
+  /* border: 2px solid red; */
 }
 .header {
   /* border: 3px solid red; */
@@ -37,7 +39,8 @@ body {
 .welcome-card {
   text-align: center;
   margin: 100px auto 0px auto;
-  h1 {
+  h1,
+  h2 {
     color: purple;
     font-size: 3rem;
   }
@@ -68,21 +71,24 @@ body {
   }
 }
 .index-footer {
-  position: absolute;
-  bottom: 0px;
-  width: 94%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   text-align: center;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.footer {
-  text-align: center;
-  background-color: white;
-}
+
 .social-media {
-  margin: 20px 0px;
+  margin: 12px 0px;
 }
 .quick-links {
-  margin: 12px;
+  margin: 8px 0;
   a {
     color: purple;
     text-decoration: none;
@@ -95,7 +101,7 @@ body {
   }
 }
 .copyright p {
-  margin: 20px 0px;
+  /* margin: 20px 0px; */
   font-size: 0.6rem;
 }
 .social-icons {
@@ -106,4 +112,8 @@ body {
 .social-icons:hover {
   color: purple;
   font-size: 2rem;
+}
+.about-card {
+  width: 75%;
+  margin: auto;
 }
